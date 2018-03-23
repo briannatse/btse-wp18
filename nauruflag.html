@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+    *, body, h1, h2, img {margin: 0;}
+    body {margin: 0;}
+
+
+     section {border: 1px solid red;
+     width: 100vw;
+     height: 50vh;
+     display: grid;
+     /* HERE is where you designate the number of rows and columns and their size!!!*/
+     grid-template-columns: 100vw;
+     grid-template-rows: 45vh 10vh 45vh;
+     grid-gap: 0px;}
+
+      /*blue stripes*/
+      div { margin: 0px;
+      background: rgba(21,44,102,1); }
+
+      /*yellow stripe*/
+      .yellow {
+      background: rgba(255,226,63,1);
+      height: 10vh;
+      }
+
+      img {position: absolute;
+      width: 30vw;
+      left:12vw;
+      top: ;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div>box1</div>
+      <div class="div yellow"></div>
+      <div><img width="300" src="sticker.svg"></div>
+    </section>
+
+  </body>
+</html>
