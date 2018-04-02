@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <style>
+
+    *, body, h1, h2, img {margin: 0;}
+    body {margin: 0;}
+
+
+     section {
+     width: 50vw;
+     height: 100vh;
+     display: grid;
+     /* HERE is where you designate the number of rows and columns and their size!!!*/
+     grid-template-columns: repeat(30,1fr);
+     grid-template-rows: repeat(30,1fr);
+     grid-gap: 0px;}
+
+      /*yellow bit*/
+
+      .block2{
+        grid-column: 7/25;
+        grid-row: 5/20;
+        background: rgba(255, 221, 225, 0.8);
+        width: 20vw;
+        height: 30vh;
+        z-index: -100;
+        position: relative;
+      }
+
+      .block3{
+        grid-column: 1/25;
+        grid-row: 2/30;
+        background: rgba(255, 246, 232, 0.8);
+        width: 20vw;
+        height: 30vh;
+        z-index: -200;
+        position: relative;
+      }
+
+      .block4{
+        grid-column: 10/30;
+        grid-row: 1/30;
+        background: rgba(21, 44, 91, 0.8);
+        width: 30vw;
+        height: 40vh;
+        z-index: -300;
+        position: relative;
+      }
+
+      img{
+        width: ;
+        margin-top: 15px;
+        margin-left: 12px;
+
+      }
+/*beginning of dot grid*/
+      .container1{
+        grid-column: 1/12;
+        grid-row: 1;
+        z-index: 2;
+      }
+
+      .container2{
+        grid-column: 1/12;
+        grid-row: 2;
+        z-index: 2;
+      }
+
+      .container3{
+        grid-column: 1/12;
+        grid-row: 3;
+        z-index: 2;
+      }
+
+      .container4{
+        grid-column: 1/12;
+        grid-row: 4;
+        z-index: 2;
+      }
+/* beginning of diamond grid*/
+      .container5{
+        grid-column: 8/25;
+        grid-row: 3;
+        z-index: 2;
+      }
+
+      .container6{
+        grid-column: 8/25;
+        grid-row: 4;
+        z-index: 2;
+      }
+
+      .container7{
+        grid-column: 8/25;
+        grid-row: 5;
+        z-index: 2;
+      }
+
+      .container8{
+        grid-column: 8/25;
+        grid-row: 6;
+        z-index: 2;
+      }
+
+      .container9{
+        grid-column: 8/25;
+        grid-row: 7;
+        z-index: 2;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <section>
+      <div class="block2"></div>
+      <div class="block3"></div>
+      <div class="block4"></div>
+
+      <div class="container1">
+            <img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg">
+      </div>
+      <div class="container2">
+            <img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg">
+      </div>
+      <div class="container3">
+            <img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg">
+      </div>
+      <div class="container4">
+            <img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg"><img width="5%" src="one.svg">
+      </div>
+
+      <div class="container5">
+            <img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg">
+      </div>
+      <div class="container6">
+            <img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg">
+      </div>
+      <div class="container7">
+            <img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg">
+      </div>
+      <div class="container8">
+            <img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg">
+      </div>
+      <div class="container9">
+            <img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg"><img width="10%" src="two.svg">
+      </div>
+
+
+</html>
