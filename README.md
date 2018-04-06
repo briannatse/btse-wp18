@@ -1,6 +1,6 @@
 # btse-wp18
 Week 1:<br>
-<a href="https://briannatse.github.io/btse-wp18/flag.html">flag 1</a>
+<a href="https://briannatse.github.io/btse-wp18/flag.html">flag 1</a><br>
 <a href="https://briannatse.github.io/btse-wp18/flag2.html">flag 2</a><p></p>
 
 <a href="https://briannatse.github.io/btse-wp18/Assignments/Week_1/form1.html">form 1</a><br>
