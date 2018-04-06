@@ -19,3 +19,6 @@ Week 2:<br>
 <hr>
 
 Week 3:<br>
+<a href="https://briannatse.github.io/btse-wp18/senegal.html">Senegal flag</a><br>
+<a href="https://briannatse.github.io/btse-wp18/usflagquery.html">US flag #2</a><br>
+<a href="https://briannatse.github.io/btse-wp18/senegaljquery.html">Senegal flag jquery</a><p></p>
