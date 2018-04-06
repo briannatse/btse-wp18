@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <style>
+    *, body, h1, h2 {margin: 0;}
+    body {margin: 0; background: white;}
+
+        section {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          height: 100vh;
+        }
+
+        div {
+          flex: 100vw;
+          margin: 0px;
+          background: red;
+        }
+
+        .whitestripe {
+          flex: 100vw;
+          margin: 0px;
+          background: white;
+        }
+
+        .bluebox {
+          width: 40vw;
+          height: 54vh;
+          margin: 1px;
+          background: navy;
+          position: absolute;
+          z-index: 100;
+        }
+
+        img {
+          width: 25%;
+          align-content: center;
+          justify-content: center;
+          background: navy;
+        }
+
+        @media (max-width: 700px) {
+           .none {
+             display: none;
+            }
+        }
+
+        @media (max-height: 340px) {
+           .none {
+             display: none;
+            }
+        }
+
+        @media (max-height: 575px) {
+           .none2 {
+             display: none;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="bluebox">
+      <img src="star.svg"><img src="star.svg"><img src="star.svg">
+
+      <img src="star.svg" class="none"><img src="star.svg" class="none"><img src="star.svg" class="none">
+
+      <img src="star.svg" class="none2"><img src="star.svg" class="none2"><img src="star.svg" class="none2">
+    </div>
+    <section>
+
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+      <div class="whitestripe"></div>
+      <div></div>
+    </section>
+  </body>
+</html>
