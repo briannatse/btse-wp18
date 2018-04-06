@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>senegal flag</title>
+  <style>
+
+  div:hover {
+    transform: scale(1.5);
+    background: violet;
+    flex: 2 400px;
+    margin: 20px;
+  }
+
+      section {
+      display: flex;
+      flex-direction: row;
+      height: 100vh;
+      }
+
+      div {flex: 100vh;
+      background: green;
+      margin: 0px;
+      flex-basis: 80vh;
+      flex-grow: 2;
+      flex-shrink: 2;
+      transition: 0.5s all;
+      }
+
+      .yellow {
+      background: yellow;
+      flex: 100vh;
+      margin: 0px;
+      flex-basis: 80vh;
+      flex-grow: 2;
+      flex-shrink: 2;
+      }
+
+      .red {
+      background: red;
+      flex: 100vh;
+      margin: 0px;
+      flex-basis: 80vh;
+      flex-grow: 2;
+      flex-shrink: 2;
+      }
+
+      img {
+      align-items: center;
+      justify-content: center;
+      }
+
+      .turnblue {
+      transform: scale(0.9);
+      background: navy;
+      }
+
+      .turnpurple {
+      background: purple;
+      }
+
+      .rotate {
+      transform: rotate(45deg);
+      }
+
+
+  </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <section>
+    <div>.</div>
+    <div class="yellow">
+    <img src="star.svg"></div>
+    <div class="red">.</div>
+
+  </section>
+
+  <script>
+    $(".yellow").click(function() {
+      $(this).toggleClass("turnblue");
+    });
+  </script>
+
+  <script>
+    $(".red").click(function() {
+      $(this).toggleClass("rotate");
+      $(this).toggleClass("turnpurple");
+    });
+  </script>
+</body>
+</html>
