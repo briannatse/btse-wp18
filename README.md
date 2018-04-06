@@ -15,3 +15,7 @@ Week 2:<br>
 <a href="https://briannatse.github.io/btse-wp18/usflag.html">US flag</a><p></p>
 <a href="https://briannatse.github.io/btse-wp18/Assignments/Grid1.html">grid 1</a><br>
 <a href="https://briannatse.github.io/btse-wp18/Assignments/Grid2.html">grid 2</a><br>
+
+<hr>
+
+Week 3:<br>
