@@ -1,0 +1,94 @@
+<html>
+	<head>
+
+	  <title>jquery</title>
+
+    <style>
+    *, body, h1, h2 {margin: 0;}
+		body{
+			color: RGB(38, 103, 214);
+		}
+		section{
+
+			display: grid;
+			grid-template-columns: 100vw;
+			grid-template-rows: repeat(40,1fr);
+			align-content: space-around;
+			justify-content: space-between;
+			background: black;
+
+		}
+
+
+			div {
+				background: RGB(38, 103, 214);
+}
+
+
+			.hoverthing{
+				transform: scale(1.1);
+				background: RGB(0, 15, 40);
+				transition: 2s;
+				color: white;
+			}
+
+			.click{
+				background: RGB(0, 15, 40);
+				transform: scale(1.1);
+				transition: 2s;
+			}
+
+			.text{
+				font-family: sans-serif;
+				text-align: center;
+				font-size: 10px;
+				z-index: 999;
+				font-style: italic;
+			}
+
+			.quote{
+				color: rgb(144, 154, 168);
+				font-family: sans-serif;
+				text-align: center;
+				font-size: 7px;
+			}
+
+
+    </style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+					<section>
+<div></div> <div></div> <div></div> <div><div class="text">"the sky</div></div><div><div class="text">grew darker</div></div><div></div><div></div><div></div><div></div>
+<div></div><div><div class="text">painted blue on blue</div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div><div class="text">one stroke</div></div><div></div><div><div class="text">at a time</div></div><div>.</div><div>.</div><div></div><div></div>
+<div></div><div><div class="text">into a deeper</div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+<div></div><div></div><div><div class="text">and deeper</div></div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div></div>
+<div><div class="text">shade of</div></div><div></div><div></div><div></div><div>
+	<div class="text">night"</div></div><div>.</div>
+<div>.</div><div>.
+</div><div>.</div><div><div class="quote">haruki murakami</div></div><div>.</div>
+
+
+
+
+					</section>
+
+					<script>
+
+
+						$("div").hover(function() {
+							$(this).addClass("hoverthing");
+						});
+
+						$("div").click(function() {
+							$(this).removeClass("hoverthing");
+						});
+
+					</script>
+
+
+    </body>
+</html>
