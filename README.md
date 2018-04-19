@@ -24,7 +24,9 @@ Week 3:<br>
 <a href="https://briannatse.github.io/btse-wp18/usflagquery.html">US flag #2</a><br>
 <a href="https://briannatse.github.io/btse-wp18/senegaljquery.html">Senegal flag jquery</a><p></p>
 
+<a href="https://briannatse.github.io/btse-wp18/jquery.html">animation</a><br>
+
 <hr>
 
 Week 4:<br>
-<a href="https://briannatse.github.io/btse-wp18/jquery.html">animation</a><br>
+<a href="https://briannatse.github.io/btse-wp18/finalsite.html">final website</a><br>
